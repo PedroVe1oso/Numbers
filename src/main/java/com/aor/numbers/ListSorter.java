@@ -12,6 +12,7 @@ public class ListSorter implements GenericListSorter{
      * Really stupid way to sort a list.
      * @return A sorted version of the list.
      */
+    @Override
     public List<Integer> sort(List<Integer> list) {
         List<Integer> sorted = new ArrayList<>();
         for (Integer number : list)

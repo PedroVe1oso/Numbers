@@ -20,6 +20,7 @@ public class ListDeduplicator implements GenericListDeduplicator{
      * but withou duplicates. The order of the numbers might
      * change.
      */
+    @Override
     public List<Integer> deduplicate(List<Integer> list) {
         List<Integer> sorted = listSorter.sort(list);
         List<Integer> unique = new ArrayList<>();
